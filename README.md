@@ -1,2 +1,2 @@
 # Podcast
-podcast application using kotlin
+Android application using kotlin
