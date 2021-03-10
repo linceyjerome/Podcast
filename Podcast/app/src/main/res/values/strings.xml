@@ -1,0 +1,30 @@
+<resources>
+    1322893
+    <string name="app_name">TP2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">TP2</string>
+    <string name="nav_header_subtitle">Lincey Jerome</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_search">Search</string>
+    <string name="menu_subscriptions">Subscriptions</string>
+    <string name="menu_episodes">Episodes</string>
+    <string name="add_subscription">Add Subscription</string>
+    <string name="recherche">Recherche</string>
+
+
+    <string name="image_du_podcast">Image du podcast</string>
+    <string name="txtTitre">TextView</string>
+    <string name="txtAuteur">TextView</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="txtType">TextView</string>
+    <string name="auteur">auteur</string>
+    <string name="type">Type</string>
+    <string name="titre">titre</string>
+    <string name="search">Search</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textview">TextView</string>
+</resources>

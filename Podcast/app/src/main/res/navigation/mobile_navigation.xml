@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    android:label="Add Podcast"
+    app:startDestination="@id/nav_subscriptions">
+
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.d74.tp2.UI.Search.SearchFragment"
+        android:label="@string/menu_search"
+        tools:layout="@layout/fragment_search" />
+
+    <fragment
+        android:id="@+id/nav_subscriptions"
+        android:name="com.d74.tp2.UI.Subscriptions.SubscriptionsFragment"
+        android:label="@string/menu_subscriptions"
+        tools:layout="@layout/fragment_subscriptions" />
+
+    <fragment
+        android:id="@+id/nav_episodes"
+        android:name="com.d74.tp2.UI.Episodes.EpisodesFragment"
+        android:label="@string/menu_episodes"
+        tools:layout="@layout/fragment_episodes" />
+
+    <fragment
+        android:id="@+id/Jouer_Fragment"
+        android:name="com.d74.tp2.UI.PlayEpisode.PlayEpisodeFragment"
+        tools:layout="@layout/fragment_jouer_episode" />
+</navigation>
